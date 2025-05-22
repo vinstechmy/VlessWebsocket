@@ -1,11 +1,10 @@
-## MUTLIPORT FALLBACK LITE VERSION VLESS WS & VLESS XTLS ONLY (SUPPORT MULTIPATH/CUSTOMPATH FOR VLESS NTLS ONLY)
+## VLESS WS & NTLS Only (SUPPORT MULTIPATH/CUSTOMPATH FOR VLESS NTLS ONLY)
 
-## SUPPORT AUTOBACKUP & BACKUP VIA TELEGRAM BOT (THANKS TO VPNLEGASI)
+## SUPPORT AUTOBACKUP & BACKUP VIA TELEGRAM BOT
 <b>
 [  HTTP  ] <br>
 <br>
 -VLESS WEBSOCKET TLS (443) <br>
--VLESS TCP XTLS (443) <br>
 <br>
 [  HTTPS  ] <br>
 <br>
@@ -24,5 +23,5 @@
 ♦️ Installation Link<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vinstechmy/MultiportFallbackLite/main/INSTALL/setup.sh && chmod +x setup.sh && ./setup.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/vinstechmy/VlessWebsocket/main/INSTALL/setup.sh && chmod +x setup.sh && ./setup.sh
   ```
