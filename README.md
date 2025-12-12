@@ -10,6 +10,11 @@
 <br>
 -VLESS WEBSOCKET NONE TLS (80) <br>
 <br>
+♦️ Please run this script if Xray Core is OFF after installation completed <br>
+
+  ```html
+ curl -L https://github.com/XTLS/Xray-core/releases/download/v25.10.15/Xray-linux-64.zip > Xray-linux-64.zip && unzip *.zip && mv xray /usr/local/bin && chmod +x /usr/local/bin/xray && rm *.zip *.dat LICENSE README.md
+  ```
 ♦️ For Debian 10 to 12 (Latest) Only For First Time Installation (Update Repo) <br>
 
   ```html
